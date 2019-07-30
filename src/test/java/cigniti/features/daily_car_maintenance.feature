@@ -1,4 +1,6 @@
-Feature: SOAP: Example of Daily car maintenance
+# -- FILE: src/test/java/cigniti/features/daily_Car_maintenance.feature
+
+Feature: SOAP: Daily car maintenance
   Cars need maintenance
 
 

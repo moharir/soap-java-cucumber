@@ -4,7 +4,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class City {
+public class daily_car_maintenance_steps {
 	private String[] properties = new String[2];
 
 	@Given("^a car with an empty gas tank$")

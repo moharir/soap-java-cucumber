@@ -7,13 +7,12 @@ import cigniti.utils.JSONHelper;
 import cigniti.utils.RESTAssuredAPI;
 import io.cucumber.java.en.When;
 
-public class AONSteps {
+public class aon_to_check_status_and_compare_response_steps {
 
 	@When("^I verify the AON response contains the word \"(.*?)\"$")
 	public void iVerifyAONResponse(String word) {
 		String wordfromresponse = RESTAssuredAPI.globalResponse.asString();
 		try {
-			System.out.println(wordfromresponse);
 			wordfromresponse = JSONHelper.xmlAsJson(wordfromresponse).getJSONObject("soap12:Envelope")
 					.getJSONObject("soap:Body").getJSONObject("DefineResponse").getJSONObject("DefineResult")
 					.getString("Word");

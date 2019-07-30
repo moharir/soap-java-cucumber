@@ -1,5 +1,7 @@
+# -- FILE: src/test/java/cigniti/features/aon_to_check_status_and_compare_response.feature
+ 
 @aon
-Feature: SOAP: Example using AonAware
+Feature: SOAP: Aon to check status and compare response
 
   #  NOTE : YOU CAN RIGHT CLICK and RUN THE SCENARIOS DIRECTLY (if your IDE supports)
   #  This feature is based on a sample web API found in google. It is observed that if we hit
